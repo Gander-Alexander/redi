@@ -149,12 +149,6 @@ nav {
 
 /* ------------Log in button--------------------------------- */
 
-a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}
-
-
 .log-in-button {
   position: absolute;
   right: 30px;
