@@ -6,7 +6,7 @@ body {
 
 .user-navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #453130;
     height: 80px;
 }
@@ -17,7 +17,7 @@ body {
 
 
 .logo {
-    position: absolute;
+    justify-content: flex-start;
     margin: .3em;
     width: 3.5em;
 }
@@ -27,16 +27,36 @@ body {
 
 .nav-links {
     display: flex;
+    justify-content: center;
 }
 
 .nav-links li {
+    color: white;
     list-style: none;
+    font-size: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-links li:hover {
+    cursor: pointer;
+    color: rgb(43, 187, 113);
+}
+
+
+.nav-text {
+    text-align: center;
+    font-size: .4em;
+    color: white;
 }
 
 
 
 
 .user-navbar .search-container {
+    justify-content: flex-end;
     float: right;
     margin-top: 5px;
 }
@@ -64,9 +84,13 @@ body {
 }
 
 
+
+
+
+
 .log-out-button {
     position: absolute;
-    right: 12px;
+    right: 16px;
     top: 50px;
 
 
@@ -81,4 +105,26 @@ body {
 .log-out-button:hover {
     background-color: rgb(160, 52, 52);
     color: white;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .nav-text {
+        display: none;
+    }
+
+
+
+    .user-navbar input[type=text] {
+        width: 20vw;
+    }
+
+
+
 }
