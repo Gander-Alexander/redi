@@ -1,0 +1,84 @@
+body {
+    background-color: white;
+}
+
+
+
+.user-navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #453130;
+    height: 80px;
+}
+
+
+
+
+
+
+.logo {
+    position: absolute;
+    margin: .3em;
+    width: 3.5em;
+}
+
+
+
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+
+
+
+.user-navbar .search-container {
+    float: right;
+    margin-top: 5px;
+}
+
+.user-navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.user-navbar .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: rgb(44, 169, 73);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.user-navbar .search-container button:hover {
+    background: rgb(27, 152, 42);
+}
+
+
+.log-out-button {
+    position: absolute;
+    right: 12px;
+    top: 50px;
+
+
+    padding: .2em;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 70px;
+    background-color: rgb(201, 69, 69);
+}
+
+.log-out-button:hover {
+    background-color: rgb(160, 52, 52);
+    color: white;
+}
