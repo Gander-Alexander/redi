@@ -1,0 +1,126 @@
+.project-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* -----This is the section for the information section of the page which is the content in the top left corner- */
+
+
+.info-section {
+    margin: 2em;
+    background-color: wheat;
+    height: 52em;
+    width: 50em;
+}
+
+
+
+
+.c-name {
+    margin: .2em;
+    font-size: 1.6em;
+}
+
+
+
+
+.p-name {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+
+.c-logo {
+    background-color: white;
+    width: max-content;
+    padding: 60px;
+    border-radius: 100%;
+    font-size: 1.6em;
+}
+
+
+
+/* ---------------------------------------------------- --------------------------------------------------------------*/
+
+
+
+
+/* ---This is for the followers section------------------------------------------------------------------------ */
+
+.followers {
+    margin: 2em;
+    background-color: wheat;
+    height: 500px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+/* ---This is for the comments section ------------------------------------------------------------------------------------  */
+
+
+.comments {
+    margin: 2em;
+    background-color: wheat;
+    height: 400px;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* ----This is for the notes section ------------------------------------------------------------------------------------------------ */
+
+
+
+.notes {
+    margin: 2em;
+    background-color: wheat;
+    height: 500px;
+    width: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------- */

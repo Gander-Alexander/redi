@@ -75,10 +75,10 @@ for (data of projectList) {
         <div class="project-links">
             <ul class="project-list">
                 <li>${data.locationName}</li>
-                <li><a href="">${data.projectName}</a></li>
+                <li><a href="../../html/projects-pages/individual-project-page.html">${data.projectName}</a></li>
             </ul>
         </div>`
 }
-// After the
+// Where it says <li> <a href> this is a sample link so you can just see how the page would look like with all the info
 
 showLinks.innerHTML += html

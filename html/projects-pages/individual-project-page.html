@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5869ff8693.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../../css/Page_Specific_CSS/projects-section/projects.css">
+    <link rel="stylesheet" href="../../css/Page_Specific_CSS/projects-section/individual-project-page.css">
     <link rel="stylesheet" href="../../css/General_CSS/main-site-background.css">
     <link rel="stylesheet" href="../../css/General_CSS/general.css">
     <link rel="stylesheet" href="../../css/General_CSS/nav.css">
@@ -75,36 +75,55 @@
     </nav>
     <!-- ------------------------------------------------------------------------------------------------------------- -->
 
-    <!-- Side note: To access the content for both the map and the project list, please go to the -->
-    <!-- project-page-map.js and project-list.js which can both be found in the js folder -->
+
     <div class="main-content-wrapper">
 
-        <h1 style="text-align: center;">Map of all projects (Work in progress)</h1>
+        <main class="project-content">
+            <section class="info-section">
+
+                <h2 class="c-name">Company Name</h2>
+
+                <h1 class="p-name">Project Name</h1>
+
+                <div class="c-logo">
+                    Logo
+                </div>
 
 
-        <!-- This button will need to be configured and edited to make it that depending  -->
-        <!-- on whether or not you're signed in to either display it or hide it -->
-        <a href="addproject.html"> <button class="add-prj-butn">Add project</button> </a>
+
+            </section>
 
 
-        <div id="map"></div>
+
+            <section class="followers">
+
+            </section>
 
 
-        <p class="list-name">Projects In List Form</p>
+            <section class="comments">
 
-        
-
-
-        <!-- This is the section that wull contain all of the links on the page below the map -->
-        <!-- You don't have to do anything to this section in order to add or remove content from the page -->
-        <!-- Please refer to the projects-list.js to make changes to the content -->
-        <section class="list-of-projects" id="list-of-projects">
-
-        </section>
+            </section>
 
 
-        
-    
+            <section class="notes">
+
+            </section>
+
+
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </div>
 
@@ -126,9 +145,7 @@
 
 
     <script src="../../js/hamburger-menu.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRZSYJDwbAfdXf2t2u44eXrDBChyYBk4s&callback=initMap"></script>
-    <script src="../../js/project-pages-section/project-page-map.js"></script>
-    <script src="../../js/project-pages-section/projects-list.js"></script>
+    <script src="../../js/project-pages-section/individual-projects-page-section/ind-proj-page-comments.js "></script>
 </body>
 
 
