@@ -18,6 +18,7 @@
 
 
 
+
 .c-name {
     margin: .2em;
     font-size: 1.6em;
@@ -34,6 +35,10 @@
 
 
 .c-logo {
+    margin-left: 23em;
+    margin-bottom: 1em;
+
+
     background-color: white;
     width: max-content;
     padding: 60px;
@@ -41,6 +46,35 @@
     font-size: 1.6em;
 }
 
+
+
+.project-image {
+    background-image: url(../../../images/skyscraper-4544131_640.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+}
+
+
+
+
+
+.project-description {
+    background-color: rgb(128, 115, 115);
+    margin: 1em;
+    height: 150px;
+}
+
+
+.project-desc-title {
+    padding: .4em;
+    font-size: 1.1em;
+}
+
+.project-desc-text {
+    margin: .2em;
+}
 
 
 /* ---------------------------------------------------- --------------------------------------------------------------*/
