@@ -11,7 +11,7 @@
 .info-section {
     margin: 2em;
     background-color: wheat;
-    height: 52em;
+    height: max-content;
     width: 50em;
 }
 
@@ -67,14 +67,54 @@
 }
 
 
+
+
+
 .project-desc-title {
     padding: .4em;
     font-size: 1.1em;
 }
 
+
+
+
 .project-desc-text {
     margin: .2em;
 }
+
+
+
+
+.project-list-content {
+    margin: 1em;
+    background-color: rgb(177, 60, 60);
+    
+}
+
+
+
+.proj-list-title {
+    text-align: center;
+    background-color: rgb(174, 141, 141);
+    padding: .5em;
+}
+
+
+
+.project-list {
+    display: flex;
+    padding: .5em;
+}
+
+
+.project-list p {
+    padding: 1em;
+}
+
+
+
+
+
 
 
 /* ---------------------------------------------------- --------------------------------------------------------------*/
