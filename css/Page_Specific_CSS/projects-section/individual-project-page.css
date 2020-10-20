@@ -101,18 +101,15 @@
 
 
 
-.project-list {
+.project-details-list {
+
+}
+
+
+.details-list-items {
     display: flex;
-    padding: .5em;
+    margin: 1em;
 }
-
-
-.project-list p {
-    padding: 1em;
-}
-
-
-
 
 
 

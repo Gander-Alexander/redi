@@ -1,9 +1,9 @@
 const projectDetails = [
-    
+
     {
         listItem: 'Project Type',
         itemName: 'Answer'
-    }, 
+    },
     {
         listItem: 'Project Jurisdiction',
         itemName: 'Answer'
@@ -38,7 +38,7 @@ const projectDetails = [
     },
     {
         // This section can be null if the project has not yet been completed
-        listItem: 'Project End Date', 
+        listItem: 'Project End Date',
         itemName: 'Answer'
     },
     {
@@ -75,15 +75,19 @@ const projectDetails = [
 // Instructions
 // Take the data above and display it as two columns within its container
 let html = ""
-const showLinks = document.querySelector('.list-of-projects')
+const showLinks = document.querySelector('.project-list')
 
-for (data of projectList) {
+for (data of projectDetails) {
     html = html + `
-        <div class="project-links">
-            <ul class="project-list">
-                <li>${data.locationName}</li>
-                <li><a href="../../html/projects-pages/individual-project-page.html">${data.projectName}</a></li>
+        <div class="project-details-list">
+
+            <ul class="">
+                <li class="details-list-items">
+                    <p>${data.listItem}</p>
+                    <p>${data.itemName}</p>
+                </li>
             </ul>
+            
         </div>`
 }
 // Where it says <li> <a href> this is a sample link so you can just see how the page would look like with all the info
