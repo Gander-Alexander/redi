@@ -160,6 +160,6 @@ for (messageData of messages) {
         <p class="message-date">${messageData.messageDate}</p>
     </div>`
 }
-// After the
+
 
 displayMessages.innerHTML += html

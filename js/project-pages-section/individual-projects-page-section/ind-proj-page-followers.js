@@ -75,7 +75,7 @@ const projectDetails = [
 // Instructions
 // Take the data above and display it as two columns within its container
 let html = ""
-const showLinks = document.querySelector('.project-list')
+const showLinks = document.querySelector('.followers-list')
 
 for (data of projectDetails) {
     html = html + `
