@@ -1,3 +1,8 @@
+// This is an example array to demonstrate what the project list would look like on the site when the database is connected, some styling may have to be changed or added to make it look better
+
+
+
+
 const projectList = [
     
     {
@@ -71,6 +76,8 @@ let html = ""
 const showLinks = document.querySelector('.list-of-projects')
 
 for (data of projectList) {
+
+
     html = html + `
         <div class="project-links">
             <ul class="project-list">

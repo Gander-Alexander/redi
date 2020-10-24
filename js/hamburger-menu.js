@@ -1,4 +1,4 @@
-// This is the code for the hamburger menu
+// This is the code for the hamburger menu that's on every page excluding the user pages
 const circle = document.querySelector('.circle-box')
 
 const text = document.querySelector('.nav-links')

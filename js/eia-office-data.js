@@ -1,3 +1,5 @@
+// This array was made for the EIA office page and either will be changed manually to display the offices or changed via some other way
+
 
 const data = [{
         officeName: 'Office Name',

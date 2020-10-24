@@ -31,3 +31,12 @@ Any pages such as the user or company profile pages will not include any kind of
 needs as mentioned above or in the notes on these pages respective html, css, or javascript pages.
 
 
+Everything should have comments on it to help get rid of any confusion that can arise, certain areas or specific lines of code have no comments because they're pretty straight forward to read and understand
+
+
+
+#### Note from the previous intern who was in charge of and worked on this site
+
+I do apologize if anything created harships for you or Max, because up until September of 2020 I have only had around 6 - 7 months of experience with web development and quite a few things I was either just learnging for the first time or have yet to perfect. As such my wireframe should provide all the notes and designs that will be needed to finish the site as per Max's scope of work that he tasked me with and it should be very helpful when navigating this site. I wish you luck in the coming time it takes to work on this project. I also apologize if I missed any areas that needed notes.
+
+- Richard

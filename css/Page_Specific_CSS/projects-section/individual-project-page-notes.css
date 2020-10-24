@@ -17,8 +17,8 @@
 
 .profile-area {
     text-align: center;
-    width: 15%;
-    padding: 1em;
+    width: 13%;
+    padding: .8em;
 }
 
 
@@ -35,7 +35,42 @@
 
 
 .individual-note {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    right: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
     background-color: aliceblue;
-    width: 600px;
-    height: 300px;
+    width: 900px;
+    height: 480px;
+}
+
+
+
+.note-text {
+    text-align: start;
+    margin: 1.5em;
+}
+
+
+
+
+
+
+
+.proj-work-date {
+    display: flex;
+    position: absolute;
+    top: 687px;
+    bottom: 110px;
+    left: 1075px;
+}
+
+
+.project-work-start, .project-work-end {
+    margin-left: 1em;
 }

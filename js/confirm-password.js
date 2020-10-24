@@ -1,5 +1,5 @@
 
-// ------------ Code for the confirm password feild.
+// ------------ Code for the confirm password field in the register page.
 var password = document.getElementById("password")
   , confirm_password = document.getElementById("confirm_password");
 
